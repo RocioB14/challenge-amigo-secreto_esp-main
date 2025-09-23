@@ -14,13 +14,24 @@ function agregarAmigo(){
         lista.innerHTML = "";
 
         for (const amigo of amigos){
-            lista.innerHTML =`<li>${amigo} </li>` +lista.innerHTML ;
-            
+            lista.innerHTML =`<li>${amigo} </li>` +lista.innerHTML ; 
         }
 
     }
  
     document.getElementById("amigo").value = "";
 
+}
+
+
+function sortearAmigo(){
+    if (amigos.length>0){
+        const amigoAleatorio = Math.floor(Math.random()*10)%amigos.length;
+        
+        const nombreAleatorio = amigos[amigoAleatorio];
+
+        const amigosLista = document.getElementById("resultado");
+        amigosLista.innerHTML = `<li> ${nombreAleatorio} </li>`;
+    }
 }
 
