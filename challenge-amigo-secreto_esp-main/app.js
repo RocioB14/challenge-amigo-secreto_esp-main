@@ -9,10 +9,18 @@ function agregarAmigo(){
                
     }else{
         amigos.push(textoAmigos);
-    }
+    
+        const lista = document.getElementById("listaAmigos");
+        lista.innerHTML = "";
 
+        for (const amigo of amigos){
+            lista.innerHTML =`<li>${amigo} </li>` +lista.innerHTML ;
+            
+        }
+
+    }
+ 
     document.getElementById("amigo").value = "";
 
 }
-
 
