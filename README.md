@@ -17,4 +17,4 @@ _Lo hice con HTML, CSS y JavaScript._
 :three: Una vez escrita la lista de amigos, darc clic en sortear amigo y aparecerá tu amigo secreto
 <img width="1042" height="745" alt="resultadoAmigo" src="https://github.com/user-attachments/assets/b4737bae-6170-4561-8840-176e5373df3e" />
 
-
+## Accede al juego aqui [Amigo Secreto](https://rociob14.github.io/challenge-amigo-secreto_esp-main/)
